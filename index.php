@@ -12,13 +12,13 @@
   <h2>A Simple Web Form</h2>
   <form action="/submit.php" method="post">
     <label for="">First name</label>
-    <input type="text" name="firstName">
+    <input type="text" name="firstName" required>
     <label for="">Last name</label>
-    <input type="text" name="lastName">
+    <input type="text" name="lastName" required>
     <label for="">Date of Birth</label>
-    <input type="text" name="dateOfBirth">
+    <input type="date" name="dateOfBirth" required>
     <label for="">Gender</label>
-    <select name="gender">
+    <select name="gender" required>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
       <option value="Others">Others</option>
