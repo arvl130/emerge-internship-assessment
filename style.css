@@ -52,3 +52,23 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #1f2937;
 }
+
+dl {
+  display: grid;
+  max-width: 32rem;
+  margin-inline: auto;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+
+dt {
+  text-align: right;
+}
+
+dd {
+  margin-left: 0;
+}
+
+p {
+  text-align: center;
+}
